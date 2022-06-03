@@ -1,0 +1,18 @@
+
+<button (click)="buttonoff()">USerDetails</button>
+<p *ngIf="buttonOn; else hide"> hide</p>
+<ng-template #hide>
+  <p>   </p>
+</ng-template>
+ 
+<div *ngFor="let count of numarray">
+  <p [ngStyle]="{backgroundColor: getColor(count)}">{{count}}</p>
+</div>
+ 
+
+<div *ngFor="let count of num">
+  <p [ngStyle]="{backgroundColor: getColor(count)}">{{count}}</p>
+</div> --> -->
+
+
+
